@@ -323,8 +323,8 @@ section{
 }
 
 .portfolio-img img {
-    padding: 10px;
-    width: 410px;
+    padding: 7px;
+    width: 423px;
     height: 430px;
 }
 /* Portfolio area end */  
@@ -332,14 +332,71 @@ section{
 /* Newsletter area start */  
 
 .news-latter{
-    height: 615px;
+
     margin: auto;
     border-radius: 16px;
     background: rgba(255, 0, 0, 0.05);
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
 } 
 .nweslatter-disc img{
     margin: auto;
+    display: flex;
+    margin-top: 80px;
 }
+.nweslatter-disc h1{
+    color: #070211;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 900;
+    line-height: normal;
+    text-transform: capitalize;
+}
+.nweslatter-disc p{
+    color: rgba(7, 2, 17, 0.60);
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+}
+.nweslatter-disc input{
+    width: 648px;
+    height: 72px;
+    border-radius: 50px;
+    background: #FFF;
+    border: none;
+    text-align: center;
+}
+.nweslatter-disc input::placeholder {
+    color: rgba(7, 2, 17, 0.30);
+    text-align: left;
+    font-family: Inter;
+    font-size: 18px;font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    margin-left: 20px !important;
+}
+.nweslatter-disc button{
+    width: 210px;
+    height: 72px;
+    border-radius: 0px 50px 50px 0px;
+    background: #F00;
+    color: #FFF;
+    text-align: center;
+    font-family: Inter;
+    font-size: 20px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: normal;
+    text-transform: capitalize;
+    border: none;
+}
+
 /* Newsletter area end */  
 
 
