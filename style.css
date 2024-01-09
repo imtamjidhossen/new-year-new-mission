@@ -1,14 +1,69 @@
-.bannerm img{
-    display: flex;
+/* hero area start */
+.hero-area{
+    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%), url("resources/Banner Image.png");
     width: 1320px;
     height: 600px;
-    flex-shrink: 0;
-    text-align: center;
+
     border-radius: 16px;
-    background: linear-gradient(180deg, #070211 0%, rgba(7, 2, 17, 0.00) 100%);
+    margin: 0 auto;
 
+  
 }
 
-.banner h1{
-    color: rgb(0, 0, 0);
+.hero-title h5{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 32px;
+    font-weight: 400;
+    padding-top: 150px;
+    margin-bottom: 0px;
+    padding-bottom: 10px;
 }
+.hero-title h1{
+    color: #FFF;
+    text-align: center;
+    font-family: Merriweather;
+    font-size: 72px;
+    font-weight: 900;
+    line-height: 90px; 
+    width: 632px;
+    margin: auto;
+}
+/* hero area end */
+
+/* discount area star */
+.discount{
+    text-align: center;
+}
+
+.discount img{
+    width: 800px;
+    height: 500px;
+
+}
+.offer h1{
+    color: #F00;
+    font-family: Inter;
+    font-size: 88px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;
+}
+.offer h5{
+    color: #F00;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+}
+.category h1{
+    color: #070211;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: normal;;
+}
+/* discount area end */
