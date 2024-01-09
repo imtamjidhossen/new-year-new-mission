@@ -1,3 +1,8 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing:border-box;
+}
 
 section{
     width: 1320px;
@@ -332,18 +337,20 @@ section{
 /* Newsletter area start */  
 
 .news-latter{
-
-    margin: auto;
-    border-radius: 16px;
-    background: rgba(255, 0, 0, 0.05);
-    display: flex;
-    justify-content: center;
-    margin-top: 100px;
+margin: auto;
+border-radius: 16px;
+background: rgba(255, 0, 0, 0.05);
+display: flex;
+justify-content: center;
+margin-top: 100px;
+padding-bottom: 40px;
+margin-bottom: 100px;
 } 
 .nweslatter-disc img{
     margin: auto;
     display: flex;
     margin-top: 80px;
+    padding-bottom: 40px;
 }
 .nweslatter-disc h1{
     color: #070211;
@@ -354,6 +361,7 @@ section{
     font-weight: 900;
     line-height: normal;
     text-transform: capitalize;
+    padding-bottom: 40px
 }
 .nweslatter-disc p{
     color: rgba(7, 2, 17, 0.60);
@@ -363,14 +371,19 @@ section{
     font-style: normal;
     font-weight: 400;
     line-height: 32px; 
+    width: 896px;
+    padding-bottom: 40px
 }
 .nweslatter-disc input{
     width: 648px;
-    height: 72px;
+    max-height: 72px;
     border-radius: 50px;
     background: #FFF;
     border: none;
     text-align: center;
+    padding: 30px;
+    position: relative;
+    padding-bottom: 40px
 }
 .nweslatter-disc input::placeholder {
     color: rgba(7, 2, 17, 0.30);
@@ -379,11 +392,12 @@ section{
     font-size: 18px;font-style: normal;
     font-weight: 400;
     line-height: normal;
-    margin-left: 20px !important;
+    
 }
 .nweslatter-disc button{
-    width: 210px;
-    height: 72px;
+    margin-left: 561px;
+    width: 208px;
+    height: 74px;
     border-radius: 0px 50px 50px 0px;
     background: #F00;
     color: #FFF;
@@ -395,8 +409,71 @@ section{
     line-height: normal;
     text-transform: capitalize;
     border: none;
+    position: absolute;
+}
+.newsletter-form{
+    display: flex;
+    justify-content: center;
+}
+/* Newsletter area end */  
+.footer{
+    background: #070211;
+
+}
+.footer-main{
+    max-width: 1320px;
+    margin:auto;
+    padding-block:120px ;
+    display: flex;
+    flex-direction: column;
+    gap: 48px;
+}
+.footer-disc li{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    list-style: none;
 }
 
-/* Newsletter area end */  
+.contact li{
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 40px;
+    display: flex;
+    gap: 10px;
+    list-style:none;
+}
+.contact li img{
+    height:25px;
+    width:25px;
+    margin-top: 8px;
+}
 
+.footer-top{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.socila-ul{
+    display: flex;
+    justify-content: center;
+    gap: 24px;
+    list-style:none;
+
+}
+.copyright{
+    display: flex;
+    justify-content: space-between;
+    color: #FFF;
+    font-family: Inter;
+    font-size: 24px;
+    font-weight: 500;
+}
 
